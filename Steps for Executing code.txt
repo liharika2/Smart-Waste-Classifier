@@ -1,0 +1,45 @@
+## ▶️ Execution Steps
+
+1. Install Java Development Kit (JDK 17 or above)
+
+2. Open the project folder in Visual Studio Code
+
+3. Ensure all required files are present:
+   - Waste.java
+   - PlasticWaste.java
+   - OrganicWaste.java
+   - MetalWaste.java
+   - WasteClassifier.java
+   - SmartWasteApp.java
+
+4. Open the terminal in VS Code
+
+5. Compile the project:
+   ```bash
+   javac *.java
+6.Run the application:
+
+java SmartWasteApp
+
+7.The GUI window will open
+8.Click on "Upload Image"
+9.Select an image file (.jpg or .png)
+10.The system will:
+Display the uploaded image
+Classify the waste type
+Show disposal method
+
+
+---
+
+# ⚠️ Optional Add (Recommended)
+
+```md
+## ⚠️ Notes
+
+- Use only .jpg or .png images
+- Avoid .webp format (not supported in Java Swing)
+- Rename images for testing:
+  - plastic.jpg
+  - organic.jpg
+  - metal.jpg
